@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorites — Architecture Atlas</title>
+<meta name="description" content="A practical, exterior-focused architectural design reference: 20 styles, materials, colour, façade guides, lighting, checklists and AI prompts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a5c38' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M16 8l-2.5 5.5L8 16l2.5-5.5z'/%3E%3C/svg%3E">
+<script>(function(){try{var t=localStorage.getItem('atlas-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="index.html"><span class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M16 8l-2.5 5.5L8 16l2.5-5.5z"/></svg></span>
+    <span>Architecture Atlas<small>Design Reference</small></span></a>
+  <div class="nav-links" id="nav-links"><a href="index.html" class="nav-link">Home</a><a href="styles.html" class="nav-link">Styles</a><a href="schools.html" class="nav-link">Schools</a><a href="materials.html" class="nav-link">Materials</a><a href="colors.html" class="nav-link">Colors</a><a href="prompts.html" class="nav-link">Prompts</a><a href="architects.html" class="nav-link">Architects</a><a href="buildings.html" class="nav-link">Buildings</a><a href="timeline.html" class="nav-link">Timeline</a><a href="compare.html" class="nav-link">Compare</a><a href="favorites.html" class="nav-link active">Favorites</a></div>
+  <button class="icon-btn" id="theme-btn" title="Toggle theme" aria-label="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+  <button class="icon-btn menu-toggle" id="menu-btn" title="Menu" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+</div></nav>
+<main class="wrap section"><div class="section-head"><p class="eyebrow">Your collection</p><h2>Favorites & Bookmarks</h2>
+      <p>Styles you've saved — stored privately in your browser.</p></div>
+      <div id="fav-results" class="grid cols-3"></div>
+      <div id="fav-empty" class="empty"><div class="big">No favorites yet</div><p>Tap the heart on any style to save it here.</p>
+        <div class="mt-m"><a class="btn btn-accent" href="styles.html">Browse styles <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></main>
+<footer class="footer"><div class="wrap">
+  <div class="footer-grid">
+    <div><a class="brand" href="index.html" style="font-size:1.2rem"><span class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M16 8l-2.5 5.5L8 16l2.5-5.5z"/></svg></span><span>Architecture Atlas</span></a>
+    <p class="colophon">A practical, exterior-focused architectural design reference — choose a direction and architectural language for any project. Built for design teams.</p></div>
+    <div><h4>Reference</h4><a href="styles.html">Architectural Styles</a><a href="schools.html">Design Schools</a><a href="materials.html">Materials Library</a><a href="colors.html">Color Library</a></div><div><h4>Tools</h4><a href="prompts.html">AI Design Prompts</a><a href="compare.html">Compare Styles</a><a href="timeline.html">Timeline</a><a href="favorites.html">Favorites</a></div><div><h4>Discover</h4><a href="architects.html">Famous Architects</a><a href="buildings.html">Famous Buildings</a><a href="gallery.html">Inspiration Gallery</a></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Architecture Atlas · Cube Design Studio</span>
+    <span>Static site · Exterior architecture only · Imagery via Unsplash · Pexels · Wikimedia (free / public domain)</span>
+  </div>
+</div></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/enhance.js"></script>
+</body>
+</html>
